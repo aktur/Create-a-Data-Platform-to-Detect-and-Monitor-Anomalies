@@ -1,0 +1,102 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@aktur 
+jupyter
+/
+notebook
+325
+8k
+3.3k
+Code
+Issues
+2k
+Pull requests
+31
+Actions
+Projects
+8
+Security
+1
+Insights
+notebook/.gitignore
+@telamonian
+telamonian added `--autoreload` flag to `NotebookApp` (#4795)
+…
+Latest commit 01e298f on 23 May 2020
+ History
+ 18 contributors
+@minrk@takluyver@jdfreder@willingc@joshuazeltser@fperez@ellisonbg@Carreau@telamonian@blink1073@rgbkrk@mattvonrocketstein
+53 lines (49 sloc)  704 Bytes
+  
+MANIFEST
+build
+dist
+_build
+docs/man/*.gz
+docs/source/api/generated
+docs/source/config.rst
+docs/gh-pages
+notebook/i18n/*/LC_MESSAGES/*.mo
+notebook/i18n/*/LC_MESSAGES/nbjs.json
+notebook/static/components
+notebook/static/style/*.min.css*
+notebook/static/*/js/built/
+notebook/static/*/built/
+notebook/static/built/
+notebook/static/*/js/main.min.js*
+notebook/static/lab/*bundle.js
+node_modules
+*.py[co]
+__pycache__
+*.egg-info
+*~
+*.bak
+.ipynb_checkpoints
+.tox
+.DS_Store
+\#*#
+.#*
+.coverage
+.pytest_cache
+src
+
+*.swp
+*.map
+.idea/
+Read the Docs
+config.rst
+*.iml
+/.project
+/.pydevproject
+
+package-lock.json
+geckodriver.log
+*.iml
+
+# jetbrains IDE stuff
+*.iml
+.idea/
+
+# ms IDE stuff
+*.code-workspace
+.history
+.vscode
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+
