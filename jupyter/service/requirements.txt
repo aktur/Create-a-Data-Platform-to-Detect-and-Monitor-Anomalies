@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+pydantic
+joblib==1.0.1
+sklearn
