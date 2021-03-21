@@ -1,0 +1,114 @@
+# HELP python_gc_objects_collected_total Objects collected during gc
+# TYPE python_gc_objects_collected_total counter
+python_gc_objects_collected_total{generation="0"} 21065.0
+python_gc_objects_collected_total{generation="1"} 2747.0
+python_gc_objects_collected_total{generation="2"} 814.0
+# HELP python_gc_objects_uncollectable_total Uncollectable object found during GC
+# TYPE python_gc_objects_uncollectable_total counter
+python_gc_objects_uncollectable_total{generation="0"} 0.0
+python_gc_objects_uncollectable_total{generation="1"} 0.0
+python_gc_objects_uncollectable_total{generation="2"} 0.0
+# HELP python_gc_collections_total Number of times this generation was collected
+# TYPE python_gc_collections_total counter
+python_gc_collections_total{generation="0"} 247.0
+python_gc_collections_total{generation="1"} 22.0
+python_gc_collections_total{generation="2"} 2.0
+# HELP python_info Python platform information
+# TYPE python_info gauge
+python_info{implementation="CPython",major="3",minor="7",patchlevel="10",version="3.7.10"} 1.0
+# HELP process_virtual_memory_bytes Virtual memory size in bytes.
+# TYPE process_virtual_memory_bytes gauge
+process_virtual_memory_bytes 2.01918464e+09
+# HELP process_resident_memory_bytes Resident memory size in bytes.
+# TYPE process_resident_memory_bytes gauge
+process_resident_memory_bytes 1.01675008e+08
+# HELP process_start_time_seconds Start time of the process since unix epoch in seconds.
+# TYPE process_start_time_seconds gauge
+process_start_time_seconds 1.61634550397e+09
+# HELP process_cpu_seconds_total Total user and system CPU time spent in seconds.
+# TYPE process_cpu_seconds_total counter
+process_cpu_seconds_total 21.31
+# HELP process_open_fds Number of open file descriptors.
+# TYPE process_open_fds gauge
+process_open_fds 9.0
+# HELP process_max_fds Maximum number of open file descriptors.
+# TYPE process_max_fds gauge
+process_max_fds 1.048576e+06
+# HELP model_information_total Model counter
+# TYPE model_information_total counter
+model_information_total 3.0
+# HELP model_information_created Model counter
+# TYPE model_information_created gauge
+model_information_created 1.616345505452818e+09
+# HELP prediction_total Prediction counter
+# TYPE prediction_total counter
+prediction_total 11.0
+# HELP prediction_created Prediction counter
+# TYPE prediction_created gauge
+prediction_created 1.6163455054528506e+09
+# HELP prediction_response Prediction histogram
+# TYPE prediction_response histogram
+prediction_response_bucket{le="0.005"} 1.0
+prediction_response_bucket{le="0.01"} 1.0
+prediction_response_bucket{le="0.025"} 1.0
+prediction_response_bucket{le="0.05"} 1.0
+prediction_response_bucket{le="0.075"} 1.0
+prediction_response_bucket{le="0.1"} 1.0
+prediction_response_bucket{le="0.25"} 1.0
+prediction_response_bucket{le="0.5"} 1.0
+prediction_response_bucket{le="0.75"} 1.0
+prediction_response_bucket{le="1.0"} 10.0
+prediction_response_bucket{le="2.5"} 10.0
+prediction_response_bucket{le="5.0"} 10.0
+prediction_response_bucket{le="7.5"} 10.0
+prediction_response_bucket{le="10.0"} 10.0
+prediction_response_bucket{le="+Inf"} 10.0
+prediction_response_count 10.0
+prediction_response_sum 8.0
+# HELP prediction_response_created Prediction histogram
+# TYPE prediction_response_created gauge
+prediction_response_created 1.6163455054528823e+09
+# HELP score_response Score histogram
+# TYPE score_response histogram
+score_response_bucket{le="0.005"} 10.0
+score_response_bucket{le="0.01"} 10.0
+score_response_bucket{le="0.025"} 10.0
+score_response_bucket{le="0.05"} 10.0
+score_response_bucket{le="0.075"} 10.0
+score_response_bucket{le="0.1"} 10.0
+score_response_bucket{le="0.25"} 10.0
+score_response_bucket{le="0.5"} 10.0
+score_response_bucket{le="0.75"} 10.0
+score_response_bucket{le="1.0"} 10.0
+score_response_bucket{le="2.5"} 10.0
+score_response_bucket{le="5.0"} 10.0
+score_response_bucket{le="7.5"} 10.0
+score_response_bucket{le="10.0"} 10.0
+score_response_bucket{le="+Inf"} 10.0
+score_response_count 10.0
+score_response_sum -7.074199043994
+# HELP score_response_created Score histogram
+# TYPE score_response_created gauge
+score_response_created 1.616345505453057e+09
+# HELP response_latency Latency histogram
+# TYPE response_latency histogram
+response_latency_bucket{le="0.005"} 0.0
+response_latency_bucket{le="0.01"} 0.0
+response_latency_bucket{le="0.025"} 0.0
+response_latency_bucket{le="0.05"} 3.0
+response_latency_bucket{le="0.075"} 10.0
+response_latency_bucket{le="0.1"} 10.0
+response_latency_bucket{le="0.25"} 10.0
+response_latency_bucket{le="0.5"} 10.0
+response_latency_bucket{le="0.75"} 10.0
+response_latency_bucket{le="1.0"} 10.0
+response_latency_bucket{le="2.5"} 10.0
+response_latency_bucket{le="5.0"} 10.0
+response_latency_bucket{le="7.5"} 10.0
+response_latency_bucket{le="10.0"} 10.0
+response_latency_bucket{le="+Inf"} 10.0
+response_latency_count 10.0
+response_latency_sum 0.5454583168029785
+# HELP response_latency_created Latency histogram
+# TYPE response_latency_created gauge
+response_latency_created 1.616345505453104e+09

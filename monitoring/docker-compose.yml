@@ -5,6 +5,14 @@ volumes:
   grafana_data:
 
 services:
+  service:
+    image: aktur/lp-service:latest
+    container_name: service
+    expose:
+      - 8000
+    ports:
+      - 8000:8000
+      
   prometheus:
     image: prom/prometheus:v2.20.0
     container_name: prometheus
